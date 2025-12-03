@@ -25,7 +25,7 @@ def render_maze(maze, path=None):
             elif (r_idx, c_idx) == END:
                 display_row.append("🏁") # Fin
             elif (r_idx, c_idx) in path:
-                display_row.append("🔹 ") # Camino resuelto
+                display_row.append("🔹") # Camino resuelto
             elif col == 1:
                 display_row.append("⬛") # Muro
             else:
